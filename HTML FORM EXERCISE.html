@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration</title>
+    </head>
+    <body>
+        <form method="post" action="tutorial2.html" autocomplete="on">
+            <table width="700px" cellpadding="20" border="2">
+                <thead style="background:yellow;">
+                    <tr>
+                        <th colspan="2" style="color:red;"><h1>Registration Form</h1></th>
+                    </tr>
+                </thead>
+                <tbody style="background:rgb(28, 177, 226);">
+                    <tr>
+                        <td>Enter Name</td>
+                        <td><input type="text" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Password </td>
+                        <td><input type="Password" id="Password"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Address</td>
+                        <td><textarea id="address"></textarea></td>
+                    </tr>
+                    <tr rowspan="5">
+                        <td>Select Game</td>
+                        <td><input type="checkbox" value= "Hockey"><label>Hockey</label><br>
+                        <input type="checkbox" value= "Football"><label>Football</label><br>
+                        <input type="checkbox" value= "Badminton"><label>Badminton</label><br>
+                        <input type="checkbox" value= "Cricket"><label>Cricket</label><br>
+                        <input type="checkbox" value= "Volleyball"><label>Volleyball</label></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td> 
+                        <td>
+                            <label><input type="radio" name="gender" id="male" value="male">Male</label>
+                            <label><input type="radio" name="gender" id="femail" value ="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Select Your age
+                        </td>
+                        <td>
+                            <input type="number" id="age" min="1" max="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Select Photo</td>
+                        <td><input type="file" id="photo" required></td>
+                    </tr>
+                    <tr >
+                        <td colspan="3">
+                            <input type="submit" type="reset" value="click me">
+                            <input  type="reset" value="reset">
+                            <input type="submit"  value="submit Form" >
+                        </td>
+                        
+                    </tr>
+                </tbody >
+            </table>
+        </form>
+    </body>
+</html>
